@@ -141,6 +141,7 @@
             this.Controls.Add(this.KeyText);
             this.Controls.Add(this.MainText);
             this.Controls.Add(this.MainTitle);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
